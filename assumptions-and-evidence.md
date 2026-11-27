@@ -26,7 +26,7 @@ platform rules are not used as evidence here (see A03).
 |---|---|---|---|---|
 | E01 | 372,293 finished campaigns; 133,956 (36 %) reached their goal, 238,337 (64 %) did not. | S01 | High | Canceled campaigns count as not funded. |
 | E02 | Funding rate falls with the goal: up to 1k USD 49 %, 5k to 10k 35 %, over 100k 6 %. By category: Dance 62 %, Theater 60 %, Technology 20 %. | S01 | High | Association, not cause; goal and category are entangled (Technology median goal 20,000 USD). |
-| E03 | 166,483 campaigns (45 %) ran exactly 30 days, funded 32 %; 29 days 46 %, 31 days 50 %. 60 days: 19 %. | S01 | High | Pattern; cause unknown (U04). |
+| E03 | 166,483 campaigns (45 %) ran exactly 30 days, funded 32 %; 29 days 46 %, 31 days 49 %. 60 days: 19 %. | S01 | High | Pattern; cause unknown (U04). |
 | E04 | Model inputs by importance: category, goal, length far ahead; title words, country, launch weekday and month add little. | S02 | High | Permutation importance on the test set. |
 | E05 | Week 9 model on 74,459 unseen campaigns: ROC-AUC 0.754, Brier score 0.189. In cross-validation logistic regression reached 0.728, random forest 0.718. | S02, rerun in S05 | High | Our rerun reproduced 0.754 and 0.189 exactly. |
 | E06 | Probabilities are right on average (36 % predicted, 36 % funded). Per launch year the gap reaches about 4 points (2015: 32 % predicted, 28 % funded). | S02 | High for 2009 to 2018 | Says nothing about 2026 (U02). |

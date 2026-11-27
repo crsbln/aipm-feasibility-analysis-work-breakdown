@@ -30,7 +30,7 @@ Week 9 machine-learning project, because it fits every selection rule in Step 1:
 - Of 372,293 finished campaigns from 2009 to January 2018, only **36 %** reached their goal; 64 % did not. `[evidence, E01]`
 - Plan choices line up with very different success rates: goals up to 1,000 USD were funded 49 % of the time, goals over
   100,000 USD 6 %; Dance 62 %, Technology 20 %. `[evidence, E02]`
-- 45 % of campaigns ran exactly 30 days and were funded 32 % of the time, against 46 % at 29 days and 50 % at 31 days.
+- 45 % of campaigns ran exactly 30 days and were funded 32 % of the time, against 46 % at 29 days and 49 % at 31 days.
   `[evidence, E03]` That 30 days is the platform's default setting is `[assumption, A08]`. Whether the dip is a cause
   or only a marker of less planning is `[unknown, U04]`.
 - Whether creators feel this problem, know these patterns, or want help before launch: **no creator has been asked**.

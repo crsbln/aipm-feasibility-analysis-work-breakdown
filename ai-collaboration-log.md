@@ -51,3 +51,18 @@
 
 F1 and F2 are the clearest cases: plausible sentences ("the common default", "read in a minute") written as facts.
 D3 is a quieter one: a number from our own deck, reused without checking what it measured.
+
+## Independent fact check (2026-11-27, a second Claude session)
+
+After the pass above, a separate Claude session re-read every file against the handout and recomputed the numbers
+of E01 to E03, E09 and E11 from the raw CSV with this repository's own script. E04 to E08 were compared with the
+Week 9 `results.json` only. This is still an AI review, not the owner's.
+
+| # | Finding | Response | What changed |
+|---|---|---|---|
+| FC1 | "31 days: 50 %" in the brief and in E03. The exact share is 49.49 % of 13,049 campaigns; the Week 9 file stores 0.495, and rounding that a second time gave 50. | Corrected | Both places now say 49 %. |
+| FC2 | The README named five optional extensions and the one left out; the handout lists seven. | Corrected | The README now says that "Design a validation project" is covered by the main direction (`wbs.md`, gate rules in `decision-memo.md`). |
+
+Every other recomputed number matched to the stated precision: rows and funded share, goal bands, categories, the
+29, 30 and 60 day rates, yearly rates, and every ROC-AUC and Brier score in `analysis/option_b_lookup_results.json`
+(random and time-based split).

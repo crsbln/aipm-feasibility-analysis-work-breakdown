@@ -142,7 +142,7 @@ The seven required files (handout):
 | [decision-memo.md](decision-memo.md) | Four arguments on the same evidence, the recommendation, gate rules, next action, confidence |
 | [wbs.md](wbs.md) | 8 deliverables, 21 work packages (outline and Mermaid), traceability table, 100 % rule audit |
 | [wbs-dictionary.md](wbs-dictionary.md) | Scope, "done when", owner role, dependencies, exclusions and risks for every work package |
-| [ai-collaboration-log.md](ai-collaboration-log.md) | 7 drafting decisions and 10 review findings: accepted, corrected, rejected |
+| [ai-collaboration-log.md](ai-collaboration-log.md) | 7 drafting decisions and 10 review findings: accepted, corrected, rejected; 2 corrections from a later fact check |
 
 Supporting work:
 
@@ -156,6 +156,11 @@ Supporting work:
 | [reassessment.md](reassessment.md) | Optional extension: one real and one scenario evidence change |
 | [issue-drafts.md](issue-drafts.md) | Optional extension: 5 proposed issues, not created on GitHub |
 | [reflection.md](reflection.md) | Answers to the 15 lesson questions and the 5 handout reflection questions |
+
+The handout lists seven optional extensions. Five are the files above. "Design a validation project" has no file of
+its own, because the recommended direction already is one: its WBS is `wbs.md`, its question, evidence and stop
+conditions are the gate rules in `decision-memo.md`, and its acceptance thresholds are deliberately still open
+(WBS 1.3.3).
 
 Not done: the optional lifecycle cost-benefit model. There is no credible basis for effort or cost numbers before
 creators have been asked (the handout's last reflection question); WBS 1.6.1 measures running cost instead.
