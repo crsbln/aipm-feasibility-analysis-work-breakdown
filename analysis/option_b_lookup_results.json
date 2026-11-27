@@ -1,0 +1,90 @@
+{
+  "rows": 372293,
+  "funded_share": 0.36,
+  "random_split": {
+    "train_rows": 297834,
+    "test_rows": 74459,
+    "C0 goal rule (yes/no)": {
+      "roc_auc": 0.598
+    },
+    "C0 goal as ranking": {
+      "roc_auc": 0.64
+    },
+    "B1 category (15)": {
+      "roc_auc": 0.623,
+      "brier": 0.22,
+      "cells": 15
+    },
+    "B2 category x goal band": {
+      "roc_auc": 0.681,
+      "brier": 0.209,
+      "cells": 120
+    },
+    "B3 category x goal x length": {
+      "roc_auc": 0.703,
+      "brier": 0.204,
+      "cells": 823
+    },
+    "B4 subcategory x goal band": {
+      "roc_auc": 0.715,
+      "brier": 0.201,
+      "cells": 1246
+    },
+    "A0 same number for everyone": {
+      "brier": 0.23
+    },
+    "B2 smoothing sensitivity (k: roc_auc)": {
+      "0": 0.681,
+      "10": 0.681,
+      "50": 0.681,
+      "200": 0.68
+    },
+    "C model (Week 9 settings)": {
+      "roc_auc": 0.754,
+      "brier": 0.189
+    }
+  },
+  "time_split_train_before_2016": {
+    "train_rows": 266011,
+    "test_rows": 106282,
+    "C0 goal rule (yes/no)": {
+      "roc_auc": 0.595
+    },
+    "C0 goal as ranking": {
+      "roc_auc": 0.639
+    },
+    "B1 category (15)": {
+      "roc_auc": 0.617,
+      "brier": 0.219,
+      "cells": 15
+    },
+    "B2 category x goal band": {
+      "roc_auc": 0.671,
+      "brier": 0.209,
+      "cells": 120
+    },
+    "B3 category x goal x length": {
+      "roc_auc": 0.7,
+      "brier": 0.203,
+      "cells": 827
+    },
+    "B4 subcategory x goal band": {
+      "roc_auc": 0.711,
+      "brier": 0.2,
+      "cells": 1240
+    },
+    "A0 same number for everyone": {
+      "brier": 0.228
+    },
+    "B2 smoothing sensitivity (k: roc_auc)": {
+      "0": 0.671,
+      "10": 0.671,
+      "50": 0.671,
+      "200": 0.67
+    },
+    "C model (Week 9 settings)": {
+      "roc_auc": 0.757,
+      "brier": 0.186
+    }
+  }
+}

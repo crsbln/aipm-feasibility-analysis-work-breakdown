@@ -127,6 +127,39 @@ legal advice, estimate unknown work with certainty, or approve a project. Do not
 enter sensitive data. Record sources, mark assumptions, and keep a short log of
 what the group accepted, corrected, or rejected.
 
+## My work
+
+Proposal: **Kickstarter Launch Check** (our Week 9 data product). Decision: **reframe** to a validation project
+(draft by Claude on 2026-11-27; owner review pending). No group took part; see `ai-collaboration-log.md`.
+
+The seven required files (handout):
+
+| File | What it holds |
+|---|---|
+| [project-brief.md](project-brief.md) | Problem, users, outcome, options A / B / C, constraints, criteria and hard gates G1 to G4, stakeholders, exclusions |
+| [assumptions-and-evidence.md](assumptions-and-evidence.md) | 7 sources; 12 evidence items, 3 estimates, 8 assumptions, 6 constraints, 6 risks, 8 unknowns, each with a validation action |
+| [feasibility-matrix.md](feasibility-matrix.md) | 3 options x 8 dimensions, confidence and next validation action, hard-gate check, no total score |
+| [decision-memo.md](decision-memo.md) | Four arguments on the same evidence, the recommendation, gate rules, next action, confidence |
+| [wbs.md](wbs.md) | 8 deliverables, 21 work packages (outline and Mermaid), traceability table, 100 % rule audit |
+| [wbs-dictionary.md](wbs-dictionary.md) | Scope, "done when", owner role, dependencies, exclusions and risks for every work package |
+| [ai-collaboration-log.md](ai-collaboration-log.md) | 7 drafting decisions and 10 review findings: accepted, corrected, rejected |
+
+Supporting work:
+
+| File | What it holds |
+|---|---|
+| [analysis/](analysis/) | `option_b_lookup_check.py` + results: lookup tables vs the Week 9 model on the same split (data not included, CC BY-NC-SA 4.0; download from Kaggle) |
+| [.claude/agents/](.claude/agents/) | Three read-only reviewers: feasibility challenger, data and model reviewer, WBS auditor |
+| [risk-register.md](risk-register.md) | Optional extension: 8 risks with controls, mapped to the WBS |
+| [dependency-map.md](dependency-map.md) | Optional extension: what relies on what, kept apart from the WBS |
+| [release-cut.md](release-cut.md) | Optional extension: smallest first cut vs deferred work |
+| [reassessment.md](reassessment.md) | Optional extension: one real and one scenario evidence change |
+| [issue-drafts.md](issue-drafts.md) | Optional extension: 5 proposed issues, not created on GitHub |
+| [reflection.md](reflection.md) | Answers to the 15 lesson questions and the 5 handout reflection questions |
+
+Not done: the optional lifecycle cost-benefit model. There is no credible basis for effort or cost numbers before
+creators have been asked (the handout's last reflection question); WBS 1.6.1 measures running cost instead.
+
 ## References & Further Reading
 
 - [HM Treasury: The Green Book 2026](https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government/the-green-book-2026): proportionate options appraisal, uncertainty, business as usual, and the Five Case Model.
